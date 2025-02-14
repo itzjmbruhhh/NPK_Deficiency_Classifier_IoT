@@ -4,7 +4,7 @@ const PredictionResult = ({ prediction, confidence }) => {
   if (!prediction) return null;
 
   const renderResult = () => {
-    if (confidence >= 90) {
+    if (confidence >= 85) {
       return (
         <div className="alert alert-info mt-4">
           <strong>Prediction:</strong> The image is classified as <strong>{prediction}</strong>.
