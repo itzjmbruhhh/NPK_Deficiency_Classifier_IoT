@@ -1,0 +1,18 @@
+Django
+djangorestframework
+django-cors-headers
+django-environ
+gunicorn
+psycopg2-binary  # Use if PostgreSQL is your database
+pymysql  # Use if MySQL is your database
+Pillow
+opencv-python
+numpy==1.21.6
+tensorflow==2.10.1
+scikit-learn
+celery
+redis
+channels
+daphne
+pyserial
+paho-mqtt  # If using MQTT for sensor data
