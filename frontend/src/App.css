@@ -214,6 +214,16 @@ h2 {
   margin: 0 0 10px 0;
 }
 
+.alert-danger {
+  background-color: #f8d7da;
+  color: #911421;
+  border: 1px solid #f5c6cb;
+  border-radius: 0.375rem;
+  padding: 1rem;
+  text-align: center;
+  margin: 0 0 10px 0;
+}
+
 /* Form styling */
 .form-style {
   width: 100%;
